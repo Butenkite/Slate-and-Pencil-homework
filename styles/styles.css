@@ -1,0 +1,47 @@
+body {
+  padding: 5px;
+  padding-top: 0px;
+  background-color: #e9c96f;
+}
+
+p {
+  color: #5f1293;
+}
+
+html {
+  background-color: black;
+}
+
+nav.horizontal {
+  background-color: #19002f;
+  height: 30px;
+}
+
+nav.vertical {
+  background-color: #709ade;
+}
+
+.vertical a {
+  padding: 20px;
+}
+
+footer {
+  height: 30px;
+  padding-top: 10px;
+  text-align: center;
+  color: white;
+  background-color: #19002f;
+}
+
+main {
+  background-color: #f5f5dc;
+  height: auto;
+}
+
+#logo {
+  width: 100%;
+}
+
+a {
+  color: white;
+}

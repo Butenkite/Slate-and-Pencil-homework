@@ -1,0 +1,16 @@
+main {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+  padding: 40px 100px;
+}
+
+main :last-child {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+section img {
+  width: 100px;
+}

@@ -1,0 +1,65 @@
+address,
+article,
+aside,
+blockquote,
+body,
+cite,
+div,
+dl,
+dt,
+dd,
+em,
+figcaption,
+figure,
+footer,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+html,
+img,
+li,
+main,
+nav,
+nav a,
+ol,
+p,
+section,
+span,
+ul {
+  margin: 0px;
+  padding: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1.2em;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+ul {
+  list-style: none;
+  list-style-image: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+tr,
+td,
+th,
+tbody,
+table {
+  margin: 0px;
+  padding: 0px;
+  border-spacing: 0;
+}

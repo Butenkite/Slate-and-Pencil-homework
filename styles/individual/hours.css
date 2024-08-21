@@ -1,0 +1,33 @@
+p {
+  padding: 20px;
+}
+
+#tabletop {
+  background-color: #19002f;
+  color: white;
+}
+
+tr,
+th,
+td {
+  border: 1px solid #19002f;
+}
+
+tr,
+td {
+  padding: 6px;
+}
+
+table tr:nth-of-type(even) {
+  background-color: #ebebf7;
+}
+
+table tr:nth-of-type(odd) {
+  background-color: #c1c1d6;
+}
+
+table {
+  margin: auto;
+  padding: 20px;
+  padding-top: 0;
+}

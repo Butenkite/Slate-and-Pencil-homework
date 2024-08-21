@@ -1,0 +1,46 @@
+#logo {
+  grid-area: logo;
+}
+
+nav.horizontal {
+  grid-area: navh;
+}
+
+nav.vertical {
+  grid-area: navv;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: foot;
+}
+
+body {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+  grid-template-areas:
+    "logo navv"
+    "navh navh"
+    "main main"
+    "foot foot";
+}
+
+.vertical li {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  padding-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+body {
+  width: 1200px;
+}

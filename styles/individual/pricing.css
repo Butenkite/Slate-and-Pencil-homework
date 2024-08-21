@@ -1,0 +1,60 @@
+#tabletop {
+  background-color: #19002f;
+  color: white;
+}
+
+table,
+tr,
+th,
+td {
+  border: 1px solid #19002f;
+}
+
+tr,
+td {
+  padding: 6px;
+}
+
+table tr:nth-of-type(even) {
+  background-color: #ebebf7;
+}
+
+table tr:nth-of-type(odd) {
+  background-color: #c1c1d6;
+}
+
+table p,
+aside p {
+  color: black;
+}
+
+aside {
+  background-color: #e3e399;
+  height: auto;
+  border: black solid 2px;
+  border-radius: 4px;
+}
+
+aside p {
+  padding: 10px;
+}
+
+aside ul {
+  list-style-type: square;
+}
+
+aside li {
+  margin-left: 35px;
+  padding: 10px 0px;
+}
+
+aside a {
+  color: #5f1293;
+}
+
+main {
+  grid-gap: 40px;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}

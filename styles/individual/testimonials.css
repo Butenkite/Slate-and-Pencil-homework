@@ -1,0 +1,17 @@
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  padding: 30px;
+}
+
+/* Float was found via W3 schools to help place images near text */
+
+aside img {
+  float: left;
+}
+
+aside p {
+  margin-left: 80px;
+  padding: 5px;
+}
